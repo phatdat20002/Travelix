@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal.open, .modal_login.open{
+    display: flex;
+}
+  .modal_main,.modal_main_login {
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    z-index: 10;
+  }
+  .modal_login .modal_close_login{
+    top: 26%;
+  }
+  .modal_close,.modal_close_login{
+    top: 13%;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 36%;
+    padding: 6px;
+  }
+  .modal_close:hover{
+    opacity: 0.7;
+  }
+  .form {
+    animation: modalFadeIn ease .5s;
+    border-radius: 6px;
+    width: 360px;
+    min-height: 100px;
+    padding: 32px 24px;
+    text-align: center;
+    background: #fff;
+    margin: 24px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+  }
+  .form .heading {
+    font-size: 2rem;
+  }
+  
+  .form-group {
+    display: flex;
+    margin-bottom: 4px;
+    flex-direction: column;
+  }
+  
+  .form-label,
+  .form-message {
+    text-align: left;
+  }
+  
+  .form-label {
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+  }
+  
+  .form-control {
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.4rem;
+  }
+  
+  .form-control:hover {
+    border-color: #1dbfaf;
+  }
+  
+  .form-group.invalid .form-control {
+    border-color: #f33a58;
+  }
+  
+  .form-group.invalid .form-message {
+    color: #f33a58;
+  }
+  
+  .form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+  }
+  
+  .form-submit {
+    outline: none;
+    background-color: #1dbfaf;
+    margin-top: 12px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    background-color: #1ac7b6;
+  }
+  .spacer {
+    margin-top: 12px;
+  }
+  @keyframes modalFadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+</style>
+<body>
+    <div class="modal">
+        <div class="modal_main">
+            <div class="modal_close"><i class="fa-solid fa-xmark"></i></div>
+            <form action="" method="POST" class="form" id="register-form">
+              <h3 class="heading">Đăng kí</h3>
+              <div class="spacer"></div>
+          
+              <div class="form-group">
+                <label for="fullname" class="form-label">Tên đầy đủ</label>
+                <input id="fullname" name="fullname" type="text" placeholder="VD: Phát Đạt" class="form-control">
+                <span class="form-message"></span>
+              </div>
+          
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="text" placeholder="VD: phatdat@gmail.com" class="form-control">
+                <span class="form-message"></span>
+              </div>
+          
+              <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                <span class="form-message"></span>
+              </div>
+          
+              <div class="form-group">
+                <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+                <span class="form-message"></span>
+              </div>
+              <button class="form-submit">Đăng ký</button>
+            </form>
+          </div>
+       </div>
+</body>
+</html>

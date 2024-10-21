@@ -1,0 +1,601 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://db.onlinewebfonts.com/c/015cc87c975521997bddcbc737e78a5f?family=Beyond" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="./csstravel/book.css">
+        <link rel="stylesheet" href="./csstravel/bottstrap.css">
+        <link rel="stylesheet" href="./csstravel/csspage.css">
+        <link rel="stylesheet" href="./csstravel/mediamobile.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700;1,800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <script src="./jstravel/formregister.js"></script>
+        <title>Book</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header" style="background-image: none;">
+                <div class="header_nav">
+                    <div class="header_nav-infoform">
+                        <div class="grid wide scren header_nav-container">
+                            <div class="header_nav-body">
+                                <ul class="header_nav-list">
+                                    <li class="header_nav-item phone"><a href="tel:+84931434112">+84931434112</a></li>
+                                    <li class="header_nav-item"><a href="https://picsart.com/vi/" ><i class="fa-brands fa-pinterest"></i></a></li>
+                                    <li class="header_nav-item"><a href="https://www.facebook.com/" ><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li class="header_nav-item"><a href="https://twitter.com/?lang=vi" ><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="header_nav-item"><a href="https://dribbble.com/" ><i class="fab fa-dribbble"  ></i></a></li>
+                                    <li class="header_nav-item"><a href="https://www.linkedin.com/" ><i class="fa-brands fa-linkedin"  ></i></a></li>
+                                    <li class="header_nav-item"><a href="https://www.behance.net/" ><i class="fa-brands fa-square-behance" target="_blank"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="header_nav-register">
+                                <ul class="header_nav-login">
+                                    <li class="header_nav-login-item" ><button class="js_login header_nav-register-item">Login</button></li>
+                                    <li class="header_nav-login-item"><button class="js_register header_nav-register-item">Register</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_info">
+                        <div class="header_info-body">
+                            <div class="grid wide">
+                                <div class="row">
+                                    <div class="col c-3 l-3">
+                                        <div class="header_info-home">
+                                        <a href="#" class="header_info-href">
+                                            <img src="./img/logotravel.webp" alt="">
+                                            <span class="heade_info-home-span">Travelix</span>
+                                        </a>
+                                        </div>
+                                    </div>
+                                       <div class="col c-6 l-6 header_info-listall">
+                                        <div class="header_info-listdiv">
+                                            <ul class="header_info-list">
+                                                <li class="header_info-item "><a href="./index.html">Home</a></li>
+                                                <li class="header_info-item "><a href="./whoarewe.html">Who are we</a></li>
+                                                <li class="header_info-item"><a href="./acountforget.html">recover account</a></li>
+                                                <li class="header_info-item active"><a href="">BOOK</a></li>
+                                                <li class="header_info-item"><a href="./sanpham.html">Product</a></li>
+                                               
+                                                <div class="line"></div>
+                                            </ul> 
+                                        </div>
+                                    </div>
+                                    <div class="col c-3 l-3 header_info-seachparent">
+                                        <div class="header_info-search">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                            <input type="text" class="header_input-search" placeholder="Search...">
+                                        </div>
+                                        <div class="header_cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="cart-badge">0</span>
+                                        </div>
+                                        <div class="header_menu-bar">
+                                            <i class="fa-solid fa-bars"></i>
+                                        </div>
+                                        <div class="header-mb-bar__content">
+                                            <div class="header-mb--bar_close">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </div>
+                                            <div class="header-mb-bar__list">
+                                                <a href="./index.html" class="header-mb-bar__link">Home</a>
+                                                <a href="./whoarewe.html" class="header-mb-bar__link">Who are we</a>
+                                                <a href="./acountforget.html" class="header-mb-bar__link">recover account</a>
+                                                <a href="./book.html" class="header-mb-bar__link">BOOK</a>
+                                                <a href="./sanpham.html" class="header-mb-bar__link">Product</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="book_room">
+            <div class="grid wide">
+                <h3 class="book_header">Tour Nội Địa Cao Cấp</h3>
+                <span class="book_link_header-span">Khám Phá Việt Nam - Vẻ Đẹp Bất Tận</span>
+                <div class="row">
+                    <div class="col l-4 book c-12 m-12">
+                        <a href="" class="book_link bookdefault">
+                            <p class="book_link_header">
+                                KH CN | Ăn Sáng + Trưa 
+                            </p>
+                            <img src="./img/mientay3.jpg" alt="" class="book_link-img">
+                            <div class="book_link-body">
+                                <h3 class="book_link-body-header0">Tour Đồng Tháp Quê Anh: Cao Lãnh - KDL Xẻo Quít - Chùa Lá Sen Khổng Lồ</h3>
+                                <div class="book_link-body-time">
+                                    <p><i class="fa-regular fa-clock"></i> 1 Ngày</p>
+                                    <div class="book_link-body-icontime"><i class="fa-solid fa-plane"></i><i class="fa-solid fa-bus"></i></div>
+                                </div>
+                                <ul class="book_link-body-list product-list">
+                                    <li class="book_link-body-item">Làng hoa Sa Đéc</li>
+                                    <li class="book_link-body-item">Tham Quan Vườn Cacao</li>
+                                    <li class="book_link-body-item">Chùa Lá Sen.</li>
+                                    <li class="book_link-body-item">Quán Bên Chòi</li>
+
+                                </ul>
+                                <p class="price_line">9.999.999</p>
+                                <div class="book_link-body-price">
+                                    <p id="book-count0">999+ khách đặt trong 24h qua</p>
+                                    <p id="total-price0">1 VND</p>
+                                </div>
+                                <div class="quanlity_tour">
+                                    Nhập Số Lượng Người Đi Tour:  <span id="counter0">0</span>
+                                    <button onclick="increase(0)" class="bookquanlity">+</button>
+                                    <button onclick="decrease(0)" class="bookquanlity">-</button>
+                                </div>
+                                <button class="book-now">Book Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-4 book c-12 m-12">
+                        <a href="" class="book_link bookdefault">
+                            <p class="book_link_header">
+                                Xe Ghế Ngồi | KS 3-4*
+                            </p>
+                            <img src="./img/mientay1.jpg" alt="" class="book_link-img">
+                            <div class="book_link-body">
+                                <h3 class="book_link-body-header1">Tour Miền Tây : Cần Thơ - Sóc Trăng - Bạc Liêu - Cà Mau</h3>
+                                <div class="book_link-body-time"><p><i class="fa-regular fa-clock"></i> 4 Ngày 3 Đêm </p> <div class="book_link-body-icontime"><i class="fa-solid fa-plane"></i><i class="fa-solid fa-bus"></i></div></div>
+                                <ul class="book_link-body-list product-list">
+                                <li class="book_link-body-item">Tọa Độ Cực Nam</li>
+                                <li class="book_link-body-item">Ẩm Thực Nam Bộ</li>
+                                <li class="book_link-body-item">Đất Mũi Cà Mau</li>
+                                <li class="book_link-body-item">Miếu Bà Chúa Xứ</li></ul>
+                                <div class="book_link-body-price">
+                                    <p id="book-count1">100 khách đặt trong 24h qua</p>
+                                    <p  id="total-price1">4.186.000VND</p>
+                                </div>
+                                <div class="quanlity_tour">Nhập Số Lượng Người Đi Tour:  <span id="counter1">0</span>
+                                    <button onclick="increase(1)" class="bookquanlity">+</button>
+                                    <button onclick="decrease(1)" class="bookquanlity">-</button>
+                                </div>
+                                <button class="book-now">Book Now</button>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col l-4 book c-12 m-12">
+                        <a href="" class="book_link bookdefault">
+                            <p class="book_link_header">
+                                Xe Giường Nằm | KS 3*
+                            </p>
+                            <img src="./img/mientay2.jpg" alt="" class="book_link-img">
+                            <div class="book_link-body">
+                                <h3 class="book_link-body-header2">Tour Sapa 2Đ2N: Hà Nội - Cát Cát - Moana</h3>
+                                <div class="book_link-body-time">
+                                    <p><i class="fa-regular fa-clock"></i> 2 Ngày 2 Đêm </p>
+                                    <div class="book_link-body-icontime"><i class="fa-solid fa-plane"></i><i class="fa-solid fa-bus"></i></div>
+                                </div>
+                                <ul class="book_link-body-list product-list">
+                                    <li class="book_link-body-item">Bản Cát Cát</li>
+                                    <li class="book_link-body-item">Vô Vàng Điểm Check In Moana View</li>
+                                    <li class="book_link-body-item">Đỉnh Fansipan</li>
+                                </ul>
+                                <div class="book_link-body-price">
+                                    <p id="book-count2">3 khách đặt trong 24h qua</p>
+                                    <p id="total-price2">2.110.000VND</p>
+                                </div>
+                                <div class="quanlity_tour">
+                                    Nhập Số Lượng Người Đi Tour:  <span id="counter2">0</span>
+                                    <button onclick="increase(2)" class="bookquanlity">+</button>
+                                    <button onclick="decrease(2)" class="bookquanlity">-</button>
+                                </div>
+                                <button  class="book-now">Book Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Thẻ 3 -->
+                 
+                </div>
+                <h3 class="book_header">Tour Du Lịch Mùa Noel</h3>
+                <span class="book_link_header-span">Chinh Phục Mùa Đông, Hành Trình Huyền Ảo</span>
+                <div class="row">
+                    <div class="col l-4 book c-12 m-12">
+                        <a href="" class="book_link bookdefault">
+                            <p class="book_link_header">
+                                Vietjet | Jeju Air  | KS 4*
+                            </p>
+                            <img src="./img/chinhphucmuadong.jpg" alt="" class="book_link-img">
+                            <div class="book_link-body">
+                                <h3 class="book_link-body-header3">Tour Hàn Quốc 4N4Đ: Seoul - Trượt Tuyết Elysian - Show Painter</h3>
+                                <div class="book_link-body-time"><p><i class="fa-regular fa-clock"></i> 4 Ngày 4 Đêm </p> <div class="book_link-body-icontime"><i class="fa-solid fa-plane"></i><i class="fa-solid fa-bus"></i></div></div>
+                                <ul class="book_link-body-list product-list">
+                                <li class="book_link-body-item">Tham Quan Làng Cổ Hanok</li>
+                                <li class="book_link-body-item">Lotte World</li>
+                                <li class="book_link-body-item">Show Hero Painter</li>
+                                <li class="book_link-body-item">Cung Điện Kyeongbok</li></ul>
+                                <div class="book_link-body-price">
+                                    <p id="book-count3">4 khách đặt trong 24h qua</p>
+
+                                    <p  id="total-price3">14.990.000 VND</p>
+                                </div>
+                                <div class="quanlity_tour">Nhập Số Lượng Người Đi Tour:  <span id="counter3">0</span>
+                                    <button onclick="increase(3)" class="bookquanlity">+</button>
+                                    <button onclick="decrease(3)" class="bookquanlity">-</button>
+                                </div>
+                                <button class="book-now">Book Now</button>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col l-4 book c-12 m-12">
+                        <a href="" class="book_link bookdefault">
+                            <p class="book_link_header">
+                                Vietnam Airlines | KS 3-4*
+                            </p>
+                            <img src="./img/NUIPHUSI.jpg" alt="" class="book_link-img">
+                            <div class="book_link-body">
+                                <h3  class="book_link-body-header4">Tour Nhật Bản 5N4Đ: HCM - Tokyo - Yamanashi - Phú Sĩ - Fujiten ( Mùa Tuyết)</h3>
+                                <div class="book_link-body-time">
+                                    <p><i class="fa-regular fa-clock"></i> 5 Ngày 4 Đêm </p>
+                                    <div class="book_link-body-icontime"><i class="fa-solid fa-plane"></i><i class="fa-solid fa-bus"></i></div>
+                                </div>
+                                <ul class="book_link-body-list product-list">
+                                    <li class="book_link-body-item">Tản bộ Hồ Kawaguchi</li>
+                                    <li class="book_link-body-item">Trượt Tuyết Fujiten</li>
+                                    <li class="book_link-body-item">Ngôi Làng Cổ Oshino Hakkai</li>
+                                    <li class="book_link-body-item">Ngôi Đền Meiji-jingu</li>
+                                </ul>
+                                <p class="price_line">21.900.000 VND </p>
+                                <div class="book_link-body-price">
+                                    <p id="book-count4">2 khách đặt trong 24h qua</p>
+                                    <p id="total-price4">19.900.000VND</p>
+                                </div>
+                                <div class="quanlity_tour">
+                                    Nhập Số Lượng Người Đi Tour:  <span id="counter4">0</span>
+                                    <button onclick="increase(4)" class="bookquanlity">+</button>
+                                    <button onclick="decrease(4)" class="bookquanlity">-</button>
+                                </div>
+                                <button  class="book-now">Book Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Thẻ 3 -->
+                    <div class="col l-4 book c-12 m-12">
+                        <a href="" class="book_link bookdefault">
+                            <p class="book_link_header">
+                                Vietjet Air | 3-4*
+                            </p>
+                            <img src="./img/tokyo.jpg" alt="" class="book_link-img">
+                            <div class="book_link-body">
+                                <h3 class="book_link-body-header5">Tour Nhật Bản 5N5Đ Noel: HCM - Tokyo - Nabana No Sato - Nagoya - Osaka</h3>
+                                <div class="book_link-body-time">
+                                    <p><i class="fa-regular fa-clock"></i> 5 Ngày 5 Đêm </p>
+                                    <div class="book_link-body-icontime"><i class="fa-solid fa-plane"></i><i class="fa-solid fa-bus"></i></div>
+                                </div>
+                                <ul class="book_link-body-list product-list">
+                                    <li class="book_link-body-item">Nabana no Sato</li>
+                                    <li class="book_link-body-item">Trượt Tuyết Fujiten</li>
+                                    <li class="book_link-body-item">Làng Cổ Oshino Hakkai</li>
+                                    <li class="book_link-body-item">Núi Phú Sĩ</li>
+                                </ul>
+                                <div class="book_link-body-price">
+                                    <p id="book-count5">1 khách đặt trong 24h qua</p>
+                                    <p id="total-price5">29.990.000 VND</p>
+                                </div>
+                                <div class="quanlity_tour">
+                                    Nhập Số Lượng Người Đi Tour:  <span id="counter5">0</span>
+                                    <button onclick="increase(5)" class="bookquanlity">+</button>
+                                    <button onclick="decrease(5)" class="bookquanlity">-</button>
+                                </div>
+                                <button class="book-now">Book Now</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="book_header">Tour Du Lịch Trung Quốc - Hồng Kông - Đài Loan</h3>
+                <span class="book_link_header-span">Thiên Nhiên Cẩm Tú, Lịch Sử Ngàn Năm</span>
+                <div class="row">
+                    <div class="col l-4 book c-12 m-12">
+                        <a href="" class="book_link bookdefault">
+                            <p class="book_link_header">
+                                China Airlines | KS 3*
+                            </p>
+                            <img src="./img/dai-loananh1.jpg" alt="" class="book_link-img">
+                            <div class="book_link-body">
+                                <h3 class="book_link-body-header6">Tour Đài Loan 5N4Đ: Đài Bắc - Đài Trung - Cao Hùng Bay China Airlines</h3>
+                                <div class="book_link-body-time"><p><i class="fa-regular fa-clock"></i> 3 Ngày 2 Đêm </p> <div class="book_link-body-icontime"><i class="fa-solid fa-plane"></i><i class="fa-solid fa-bus"></i></div></div>
+                                <ul class="book_link-body-list product-list">
+                                <li class="book_link-body-item">Phật Quang Sơn Tự</li>
+                                <li class="book_link-body-item">Hồ Nhật Nguyệt</li>
+                                <li class="book_link-body-item">Chợ Đêm Nổi Tiếng</li>
+                                <li class="book_link-body-item">Bảo Tàng Tưởng Giới Thạch</li></ul>
+                                <div class="book_link-body-price">
+                                    <p id="book-count6"> khách đặt trong 24h qua</p>
+
+                                    <p  id="total-price6">12.990.000  VND</p>
+                                </div>
+                                <div class="quanlity_tour">Nhập Số Lượng Người Đi Tour:  <span id="counter6">0</span>
+                                    <button onclick="increase(6)" class="bookquanlity">+</button>
+                                    <button onclick="decrease(6)" class="bookquanlity">-</button>
+                                </div>
+                                <button class="book-now">Book Now</button>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col l-4 book c-12 m-12">
+                        <a href="" class="book_link bookdefault">
+                            <p class="book_link_header">
+                                Vietjet | KS 4-5*
+                            </p>
+                            <img src="./img/dailoananh2.gif" alt="" class="book_link-img">
+                            <div class="book_link-body">
+                                <h3 class="book_link-body-header7">Tour Trung Quốc : Phượng Hoàng Cổ Trấn - Trương Gia Giới - Thiên Môn Sơn</h3>
+                                <div class="book_link-body-time">
+                                    <p><i class="fa-regular fa-clock"></i> 6 Ngày 5 Đêm </p>
+                                    <div class="book_link-body-icontime"><i class="fa-solid fa-plane"></i><i class="fa-solid fa-bus"></i></div>
+                                </div>
+                                <ul class="book_link-body-list product-list">
+                                    <li class="book_link-body-item">Cột Trụ Trời Nam</li>
+                                    <li class="book_link-body-item">Nguyên Gia Giới</li>
+                                    <li class="book_link-body-item">Thành Cổ Phượng Hoàng</li>
+                                    <li class="book_link-body-item">Con Đường Vách Đá</li>
+                                </ul>
+                                <div class="book_link-body-price">
+                                    <p id="book-count7">1 khách đặt trong 24h qua</p>
+                                    <p id="total-price7">14.990.000VND</p>
+                                </div>
+                                <div class="quanlity_tour">
+                                    Nhập Số Lượng Người Đi Tour:  <span id="counter7">0</span>
+                                    <button onclick="increase(7)" class="bookquanlity">+</button>
+                                    <button onclick="decrease(7)" class="bookquanlity">-</button>
+                                </div>
+                                <button  class="book-now">Book Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Thẻ 3 -->
+                    <div class="col l-4 book c-12 m-12">
+                        <a href="" class="book_link bookdefault">
+                            <p class="book_link_header">
+                                Vietnam Airline | KS 4*
+                            </p>
+                            <img src="./img/dailoananh3.jpg" alt="" class="book_link-img">
+                            <div class="book_link-body">
+                                <h3 class="book_link-body-header8">Tour Hong Kong : Trung Quốc - Quảng Châu - Thẩm Quyến Bay VNA</h3>
+                                <div class="book_link-body-time">
+                                    <p><i class="fa-regular fa-clock"></i> 1 Ngày 2 Đêm </p>
+                                    <div class="book_link-body-icontime"><i class="fa-solid fa-plane"></i><i class="fa-solid fa-bus"></i></div>
+                                </div>
+                                <ul class="book_link-body-list product-list">
+                                    <li class="book_link-body-item">Visa Đơn Giản</li>
+                                    <li class="book_link-body-item">Đại Lộ Ngôi Sao</li>
+                                    <li class="book_link-body-item">Tặng Bữa Ăn BBQ</li>
+                                    <li class="book_link-body-item">Quyến Rũ Đông Phương</li>
+                                </ul>
+                                <p class="price_line">17.991.000 VND </p>
+                                <div class="book_link-body-price">
+                                    <p id="book-count8">10 khách đặt trong 24h qua</p>
+                                    <p id="total-price8">17.990.000 VND</p>
+                                </div>
+                                <div class="quanlity_tour">
+                                    Nhập Số Lượng Người Đi Tour:  <span id="counter8">0</span>
+                                    <button onclick="increase(8)" class="bookquanlity">+</button>
+                                    <button onclick="decrease(8)" class="bookquanlity">-</button>
+                                </div>
+                                <button class="book-now">Book Now</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="toast hidden"></div>
+        </div>
+        <div class="footer pd-20">
+            <div class="grid wide footer_container" style="padding-top: 50px;">
+                <div class="row">
+                    <div class="col l-3 c-12">
+                        <div class="footer_item">
+                            <div class="footer_item-name">
+                                <div class="footer_item-logo">
+                                    <img src="./img/logotravel.webp" alt="" class="footer-logo__img">
+                                    <span class="footer-logo__name">Travelix</span>
+                                </div>
+                            </div>
+                            <div class="footer_item-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.</p>
+                                <div class="footer__about-social-list">
+                                    <a href="https://picsart.com/vi/" class="footer__about-social-link"><i class="fa-brands fa-pinterest"></i></a>
+                                    <a href="https://www.facebook.com/" class="footer__about-social-link"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://twitter.com/?lang=vi" class="footer__about-social-link"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://dribbble.com/" class="footer__about-social-link"><i class="fab fa-dribbble"></i></a>
+                                    <a href="https://www.linkedin.com/" class="footer__about-social-link"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="https://www.behance.net/" class="footer__about-social-link"><i class="fa-brands fa-square-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <div class="footer-item">
+                            <div class="footer_item-name">
+                                <h4>BLOG POSTS</h4>
+                            </div>
+                        </div>
+                        <div class="footer_item-content footer_blog">
+                            <div class="footer-blog-item">
+                                <img src="./img/travelthisyear1.webp" alt="" class="footer-blog-item__img">
+                                <div class="footer-blog-item__content">
+                                    <h6 class="footer-blog-item__name">Travel with us this year</h6>
+                                    <span class="footer-blog-item__date">July 20, 2021</span>
+                                </div>
+                            </div>
+                            <div class="footer-blog-item">
+                                <img src="./img/travelthisyear2.webp" alt="" class="footer-blog-item__img">
+                                <div class="footer-blog-item__content">
+                                    <h6 class="footer-blog-item__name">Travel with us this year</h6>
+                                    <span class="footer-blog-item__date">July 20, 2021</span>
+                                </div>
+                            </div>
+                            <div class="footer-blog-item">
+                                <img src="./img/travelthisyear3.webp
+                                " alt="" class="footer-blog-item__img">
+                                <div class="footer-blog-item__content">
+                                    <h6 class="footer-blog-item__name">Travel with us this year</h6>
+                                    <span class="footer-blog-item__date">July 20, 2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <div class="footer_item">
+                            <div class="footer_item-name">
+                                <h4>tags</h4>
+                            </div>
+                            <div class="footer_item-content">
+                                <a href="" class="footer-tag__link">design</a>
+                                <a href="" class="footer-tag__link">fashion</a>
+                                <a href="" class="footer-tag__link">music</a>
+                                <a href="" class="footer-tag__link">video</a>
+                                <a href="" class="footer-tag__link">party</a>
+                                <a href="" class="footer-tag__link">photography</a>
+                                <a href="" class="footer-tag__link">adventure</a>
+                                <a href="" class="footer-tag__link">travel</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <div class="footer_item">
+                            <div class="footer_item-name">
+                                <h4>CONTACT INFO</h4> 
+                            </div>
+                            <div class="footer_item-content">
+                                <div class="footer_info-item">
+                                    <img src="./img/fi1.svg" alt="" class="footeer_info-img">
+                                    <a href="https://maps.app.goo.gl/Au2umQ8cxwgw642v9?g_st=iz" class="footer-info-item__content">Cao Đẳng Kinh Tế TPHCM</a>
+                                </div>
+                            </div>
+                            <div class="footer_item-content">
+                                <div class="footer_info-item">
+                                    <img src="./img/fi2.svg" alt="" class="footeer_info-img">
+                                    <a href="tel:84931434112" class="footer-info-item__content">+84931434112 | 0788867805 | 0868490628 </a>
+                                </div>
+                            </div>
+                            <div class="footer_item-content">
+                                <div class="footer_info-item">
+                                    <img src="./img/fi3.svg" alt="" class="footeer_info-img">
+                                    <a href="mailto:" class="footer-info-item__content">dinhphatdat1811@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="footer_item-content">
+                                <div class="footer_info-item">
+                                    <img src="./img/fi4.svg" alt="" class="footeer_info-img">
+                                    <a href="https://www.kthcm.edu.vn/" class="footer-info-item__content">https://www.kthcm.edu.vn/</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="toast" class="hidden"></div>
+                </div>
+            </div>
+        <span class="copyright">Copyright © 2023 By <a href="">ĐẠT_PHƯƠNG_TRANG</a></span>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal_main">
+            <div class="modal_close"><i class="fa-solid fa-xmark"></i></div>
+            <form action="" method="POST" class="form" id="register-form">
+            <h3 class="heading">Đăng kí</h3>
+            <div class="spacer"></div>
+        
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tên đầy đủ</label>
+                <input id="fullname" name="fullname" type="text" placeholder="VD: Phát Đạt" class="form-control">
+                <span class="form-message"></span>
+            </div>
+        
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="text" placeholder="VD: phatdat@gmail.com" class="form-control">
+                <span class="form-message"></span>
+            </div>
+        
+            <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                <span class="form-message"></span>
+            </div>
+        
+            <div class="form-group">
+                <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+                <span class="form-message"></span>
+            </div>
+            <button class="form-submit">Đăng ký</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal_login">
+        <div class="modal_main_login">
+            <div class="modal_close_login"><i class="fa-solid fa-xmark"></i></div>
+            <form action="" method="POST" class="form" id="login-form">
+            <h3 class="heading">Đăng Nhập</h3>
+            <div class="spacer"></div>
+        
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tên Đăng Nhập</label>
+                <input id="fullnamelogin" type="text" placeholder="VD:Phát Đạt" class="form-control">
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input id="passwordlogin"  type="password" placeholder="Nhập mật khẩu" class="form-control">
+                <span class="form-message"></span>
+            </div>
+            <button class="form-submit">Đăng Nhập</button>
+            </form>
+        </div>
+    </div>
+    </body>
+    <script src="./jstravel/clickform.js"></script>
+<script src="./jstravel/book.js">
+
+    Validator({
+        form: 'register-form',
+        errorElement: '.form-message',
+        rules: [
+            Validator.isRequired('#fullname'),
+            Validator.isEmail('#email'),
+            Validator.isMin('#password', 6),
+            Validator.isConfirmation('#password_confirmation', function () {
+                return document.getElementById('password').value;
+            })
+        ],
+        onsubmit: function (formData) {
+            console.log('Dữ Liệu Người Dùng Nhập Vào: ', formData);
+            
+            // Display sliding toast message with user information
+            var toast = document.createElement('div');
+            toast.className = 'toast';
+            toast.innerText = 'Đăng ký thành công!\n' + 
+                              'Tên Đăng Nhập:' + formData.fullname + '\n' +
+                               'Email: ' + formData.email + '\n' +
+                              'Mật khẩu: ' + formData.password + '\n' + 
+                              'Vui Lòng Không Tiết Lộ Tài Khoản Và Mật Khẩu Cho Bất Kì ai' ;
+            document.body.appendChild(toast);
+            // Slide in the toast
+            setTimeout(function () {
+
+                toast.style.left = '20px';
+            }, 100);
+            // Hide the registration form
+            var modal = document.querySelector('.modal');
+            modal.style.display = 'none';
+        }
+    });
+</script>
+<script src="./jstravel/jstoastallpage.js"></script>
+
+</html>

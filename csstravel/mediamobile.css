@@ -1,0 +1,241 @@
+@media only screen and (max-width: 46.1875em) {
+    .grid.wide{
+        padding: 0;
+    }
+    .header{
+        overflow: hidden;
+    }
+    .header_nav-infoform, .header_info-list{
+        display: none;
+    }
+    .header_info{
+        padding: 20px ;
+    }
+    .header_info-search{
+        font-size: 18px;  
+        margin-right: 12px;  
+    }
+    .header_menu-bar{
+        font-size: 18px;
+        display: block;
+        color: #fff;
+    }
+    .header_buy-listul_mobile{
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        list-style: none;
+    }
+    .header_input-search{
+        margin-top: 12px;
+        width: 192px;
+        display: none;  
+    }
+    .header_input-search.active{
+        display: block;
+    }
+    .header_theword-heading,.header_theword-heading{
+        font-size:60px;
+    }
+    .header_theword-text{
+        margin-top: 60px;
+    }
+    .header_theword-btnfake-btn{
+        padding: 12px;
+    }
+    .header_theword {
+        top: 404%;
+    }
+    /* ul list */
+    
+  
+    /* tour */
+    .tour_container-heading{
+        font-size: 24px;
+    }
+    .tour_container-text{
+        font-size: 16px;
+    }
+    .package_content{
+        padding: 32px 20px;
+    }
+    .package_content{
+        line-height: 1.6;
+        font-size: 24px;
+    }
+    .package_text{
+        font-size: 12px;
+    }
+    .package_book{
+        margin-top: 30px;
+    }
+    /* trendding */
+    .offers_heading{
+        font-size: 24px;
+    }
+    .section-title{
+        font-size: 24px;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+    .cotact_background{
+        display: none;
+    }
+    /* menu bars */
+    .header-mb-bar__content{
+        z-index: 99;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 0;
+        max-width: 100%;
+        display: block;
+        background:linear-gradient(-300deg, rgb(250, 158, 27), rgb(141, 79, 255));
+        transition:all linear .4s;
+    }
+    .header-mb--bar_close{
+        text-align: right;
+        padding: 12px;
+        font-size: 16px;
+        color: #fff;
+    }
+    .header-mb--bar_close:hover{
+        opacity: 0.7;
+    }
+    .header-mb-bar__list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    .header-mb-bar__link{
+        text-decoration: none;
+        color: #fff;
+        padding: 16px 40px;
+        font-size: 24px;
+        font-family: cursive;
+    }
+    .header-mb-bar__link:hover{
+        color: #fa9e1b;
+    }
+    /* cart */
+    .header_cart{
+        margin-right: 24px;
+    }
+}
+/* tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+   .header_buy-listul_mobile{
+    padding: 0 8px;
+   }
+   .slide-inputtour-content.search{
+    width: 164px;
+   overflow: hidden;
+   }
+   .header_theword{
+    top: 312%;
+   }.search{
+        margin-left: 50%;
+   }
+   .modal_login .modal_close_login {
+    top: 36%;
+    }
+.modal_close, .modal_close_login {
+    top: 14%;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 27%;
+    padding: 6px;
+}
+.modal_close{
+    top: 29%;
+}
+}
+/* table & mobile */
+@media only screen and (min-width:0em) and (max-width:74.375em){
+     /* main */
+   .mt-30{
+    margin: 30px 0;
+    }
+    .pd-12{
+        padding: 0 12px;
+    }
+    .pd-20{
+        padding: 0 20px;
+    }
+    .grid.wide {
+        padding: 0 ;
+    }
+    .header_info-item{
+        display: none;
+    }
+    .header_buy-listul{
+        display: none;
+    }
+    /* slice */
+    .slide{
+        padding: 40px 20px;
+        height: auto;
+        width: 100% ;
+    }
+    .header_buy-listul_mobile{
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        list-style: none;
+    }
+    .inputAll{
+        margin-bottom: 8px;
+    }
+    .slide-inputtour_search{
+        margin-left: 50%;
+    }
+   
+    .header_buy-item,.header_buy-item.active{
+        height: 60px;
+    }
+    .header_buy-item{
+        background-color:#fff;
+        margin: 16px 0 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header_buy-item:hover {
+        height: 60px;
+    }
+    .slide-inputtour {
+    }
+    /* file who are we  */
+    .header_whoweare{
+        font-size: 32px;
+        padding: 0;
+    }
+    .header_info-members,.header_members{
+        padding: 0;
+    }
+    .header_why-list{
+        padding: 0 40px;
+    }
+    .header_why-item{
+        font-size: 20px;
+        line-height: 1.8;
+        margin-bottom: 12px;
+        font-family: 'Open Sans';
+    }
+    /* tour html */
+    .toast.show {
+        left: 50%; 
+        opacity: 1;
+    }
+    /* main travel */
+    .tour_item-btn{
+        margin-bottom: 12px;
+    }
+    /* book */
+    .book_room{
+        padding: 0 20px;
+    }
+
+}

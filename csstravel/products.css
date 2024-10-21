@@ -1,0 +1,32 @@
+.header_products{
+    padding: 24px 42px;
+    
+}
+.products_heading{
+    padding: 24px 0;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.6;
+}
+.products_img img {
+    height: 100%;
+} 
+.products_name,.products_quantity,.products_price{
+    font-size: 24px;
+    padding: 12px 0;
+    line-height: 1.6;
+
+}
+.products_list{
+    font-size: 24px;
+    padding: 12px 0;
+}
+.products_list-item{
+    color: #00abc5;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 12px 12px 16px;
+}
+/* toast */
+/* Toast Styles */
+

@@ -1,0 +1,14 @@
+#recovery-form{
+   margin:160px auto 40px auto;
+}
+.modal_close_recovery{
+    text-align: right;
+    font-size: 16px;
+    padding: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.modal_close_recovery:hover {
+    opacity: 0.7;
+}
